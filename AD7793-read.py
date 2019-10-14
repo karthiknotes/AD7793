@@ -24,7 +24,7 @@ CFW =[0x00, 0x80]   #   16 bit Configuration register [MSB[8], LSB[8]] Page 17 o
                         # 0x10 - (AIN1+) - (AIN1-)  External Reference with Buffer
                         
                         
-IO =[0x00]		    # 8 bit IO register to configure excitation currents to IO pins	
+IO =[0x00]		# 8 bit IO register to configure excitation currents to IO pins	
                                                 
 VREF = 1.17 # Internal V reference 1.17V, or external reference voltage                                              
 GAIN = 1  
