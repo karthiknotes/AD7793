@@ -17,7 +17,7 @@ class ADC7793():
     
     def __init__(self,spi,spi_channel):
         self.spi = spi
-        spi.open(spi_channel,0)
+        spi.open(spi_channel,0)   # Using channel SPI channel 0 of the Raspberry pi , GPIO08 connected to Slave select
         spi.max_speed_hz = 1000000
         spi.mode = 0b11
         spi.bits_per_word = 8
